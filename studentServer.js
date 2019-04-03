@@ -22,13 +22,13 @@ app.use(function (req, res, next) {
 	next();
 });
 
-app.get('/:fileName', function (req, res) {
+/*app.get('/:fileName', function (req, res) {
 	// run some server-side code
 	var fileName = req.params.fileName; // can call anyfile name
 	console.log(fileName + ' requested');
 	// note that __dirname gives the path to the studentServer.js file
 	res.sendFile(__dirname + '/'+ fileName);
-});
+});*/
 
 // serve static files - e.g. html, css
 // this should always be the last line in the server file

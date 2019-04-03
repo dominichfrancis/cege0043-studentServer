@@ -16,7 +16,7 @@ app.use(function(req, res, next) {
  httpServer.listen(4480);
 
  app.get('/',function (req,res) {
- 	res.send("hello world from the HTTP server");
+ 	res.send("hello world, how are you? from the HTTP server");
  });
 
 // adding functionality to log the requests 
